@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+https://www.figma.com/design/zNSNEbFbyL3qvgRot1pmjM/IFix?node-id=0-1&t=27jkHIaFGdvLqODt-1
 
-## Getting Started
+Sobre o Projeto
 
-First, run the development server:
+Este projeto foi desenvolvido com o objetivo de facilitar a comunicação entre clientes e empresas especializadas em conserto de eletrodomésticos, eliminando a necessidade de buscas manuais ou ligações telefônicas para encontrar assistência técnica.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O sistema é dividido em duas áreas principais: Cliente e Empresa, permitindo uma interação direta, prática e organizada entre quem precisa do serviço e quem o oferece.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ Área do Cliente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Na área do cliente, o usuário pode acessar a plataforma e visualizar diversas empresas cadastradas no sistema. Cada empresa possui suas especializações, como manutenção de geladeiras, máquinas de lavar, micro-ondas, entre outros eletrodomésticos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Dessa forma, o cliente pode:
 
-## Learn More
+Pesquisar empresas disponíveis;
 
-To learn more about Next.js, take a look at the following resources:
+Visualizar especialidades e informações das empresas;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Escolher livremente a empresa que melhor atende sua necessidade;
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Solicitar serviços de maneira rápida e centralizada.
 
-## Deploy on Vercel
+ Área da Empresa
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A área destinada às empresas permite o gerenciamento dos serviços oferecidos e o contato com potenciais clientes interessados.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+As empresas podem:
+
+Cadastrar seus serviços e especializações;
+
+Disponibilizar suas informações na plataforma;
+
+Receber solicitações de clientes;
+
+Ampliar sua visibilidade no mercado digital.
+
+ Objetivo do Sistema
+
+O principal objetivo do sistema é otimizar o processo de busca por assistência técnica, conectando clientes e empresas em uma única plataforma digital, tornando o atendimento mais ágil, acessível e eficiente.
+
+Além disso, o projeto busca incentivar a digitalização de prestadores de serviços, proporcionando maior praticidade tanto para usuários quanto para empresas.
