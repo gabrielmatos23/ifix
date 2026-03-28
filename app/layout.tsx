@@ -7,12 +7,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body>
-        <div className="min-h-screen bg-gray-100 flex justify-center">
-          <div className="w-[360px] bg-white shadow-lg">
-            {children}
-          </div>
-        </div>
+      <body className="bg-gray-100 text-gray-900">
+        {children}
       </body>
     </html>
   );

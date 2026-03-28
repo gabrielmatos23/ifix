@@ -1,14 +1,16 @@
-import BottomTab from "@/components/navigation/BottomTab";
 
-export default function HomeLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col h-screen">
-      <div className="flex-1">{children}</div>
-      <BottomTab />
-    </div>
+    <html lang="pt-br">
+      <body className="bg-gray-100 flex justify-center">
+        <div className="w-full max-w-6xl bg-white min-h-screen shadow-lg">
+          {children}
+        </div>
+      </body>
+    </html>
   );
-}   
+}
